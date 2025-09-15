@@ -1,0 +1,11 @@
+Configuración de la Conexión a MySQL
+	1.	Abre la interfaz web de Airflow.
+	2.	Ve a la sección Admin → Connections.
+	3.	Crea o edita una conexión con:
+	•	Conn Id: mysql_default
+	•	Conn Type: MySQL
+	•	Host: Dirección del servidor MySQL (por ejemplo, localhost o una IP).
+	•	Schema: Nombre de la base de datos.
+	•	Login: Usuario de MySQL.
+	•	Password: Contraseña del usuario.
+	•	Port: Puerto del servidor MySQL (por defecto, 3306).
